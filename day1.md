@@ -8,7 +8,7 @@
     5.Decide
     6.Implement(coding)
     7.Follow up(testing, deployment, feedback, etc)
-![image](/solve%20prblm%20step.png)
+![image](image/solve%20prblm%20step.png)
 
 ## Programming skills required:
     1.Analytical ability
@@ -35,11 +35,11 @@
   * Single thread-  One user
   * Multiple thread- Multiple user
 #### Example -
-![image](/concurreEg.png)
+![image](image/concurreEg.png)
 ### 2. Sequential-
     Task performed step by step in order.
 #### Example -
-![image](/seqEg.png)
+![image](image/seqEg.png)
 ### 3. Distribution-
     It use the distributed systems.
 #### Example- Cloud,git,torent,etc.
@@ -124,7 +124,7 @@ Sequence of ***unambiguous*** (no confusion) instuction for solving a problem i.
 * Linear / static(fixed size)
 * Non linear / dynamic(not fixed size)
   
-![image](/ds%20type.png)
+![image](image/ds%20type.png)
 ## Linear data structure
 >Array
 
@@ -196,7 +196,7 @@ They ensure that no duplicate elements are stored, making them suitable for vari
 **Example:** Searching for a specific number in a sorted list of numbers.
 
 ## Sorting Algorithms-
-![image](/sorting.png)
+![image](image/sorting.png)
 
 - ***Bubble Sort:***
     Bubble sort compares adjacent elements and swaps them if they are in the wrong order.

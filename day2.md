@@ -14,7 +14,7 @@
 * Plan , develop then evaluation
 
 ## Agile vs Waterfall Model
-![waterfall and agile](/waterfall%20vs%20Agile.png)
+![waterfall and agile](image/waterfall%20vs%20Agile.png)
 
 > waterfall model-
 
@@ -31,7 +31,7 @@
 * Prioritised customer 
 
 # Scrum
-![Scrum](/scrum.png)
+![Scrum](image/scrum.png)
   * It is agile framework
   * Deliver value incrementally in a collaborative way
   * fundamental unnit of scrum is team of people (**scrum team**)

@@ -31,7 +31,7 @@ WHERE constraint_expression
 GROUP BY column;
 ```
 
-![Untitled](/day4_1.png)
+![Untitled](image/day4_1.png)
 
 Exercise 10 — Tasks
 
@@ -71,7 +71,7 @@ HAVING group_condition;
 
 Note: If you aren't using the `GROUP BY` clause, a simple `WHERE` clause will suffice.
 
-![Untitled](/day4_2.png)
+![Untitled](image/day4_2.png)
 
 Exercise 11 — Tasks
 
@@ -210,7 +210,7 @@ VALUES (value_or_expr, another_value_or_expr, …),
       …;
 ```
 
-![Untitled](/day4_3.png)
+![Untitled](image/day4_3.png)
 
 Exercise 13 — Tasks
 
@@ -240,7 +240,7 @@ WHERE condition;
 
 One helpful tip is to always write the constraint first and test it in a **`SELECT`** query to make sure you are updating the right rows, and only then writing the column/value pairs to update.
 
-![Untitled](/day4_4.png)
+![Untitled](image/day4_4.png)
 
 Exercise 14 — Tasks
 
@@ -279,7 +279,7 @@ WHERE condition;
 
 If you decide to leave out the **`WHERE`** constraint, then *all* rows are removed, which is a quick and easy way to clear out a table completely
 
-![Untitled](/day4_5.png)
+![Untitled](image/day4_5.png)
 
 Exercise 15 — Tasks
 
@@ -411,7 +411,7 @@ Exercise 16 — Tasks
     RENAME TO new_table_name;
     ```
     
-    ![Untitled](/day4_6.png)
+    ![Untitled](image/day4_6.png)
     
     Exercise 17 — Tasks
     
@@ -458,7 +458,7 @@ Exercise 16 — Tasks
     
     ## Setting Up SSMS
     
-    ![Untitled](/day4_7.png)
+    ![Untitled](image/day4_7.png)
     
     - Click on the “Server name” dropdown and select the appropriate server.
         - For users who are using local machines as their database, click on <Browse-for-More>.
@@ -473,13 +473,13 @@ Exercise 16 — Tasks
     
     After setting  up SSMS, now its time to explore and find how to create database and start querying
     
-    ![Untitled](/day4_8.png)
+    ![Untitled](image/day4_8.png)
     
     - On the right side, you’ll see **Object Explorer**
     - In Object Explorer, there is a directory  **“📁Database”.** Right-click on the directory to bring up context menu.
     - In the menu click **“New Database”** Option which will bring up the new database wizard.
     
-    ![Untitled](/day4_9.png)
+    ![Untitled](image/day4_9.png)
     
     - In this window, give your Database a name in **“Database Name”** input field.
     - Then click “**OK”**
@@ -488,7 +488,7 @@ Exercise 16 — Tasks
     
     Now that we havee created databases, it’s time to query and make our database speak.
     
-    ![Untitled](/day4_10.png)
+    ![Untitled](image/day4_10.png)
     
     - In the **“Object Explorer”, below “**📁**Directory”** you can see the database created listed.
     - Right-click on the database to bring-up context menu. Now click **“New Query”** option. This opens the query tab for our database.

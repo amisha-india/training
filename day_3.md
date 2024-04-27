@@ -95,7 +95,7 @@ SELECT * FROM mytable;
 ~~~
 
 ***SQL Lesson 2: Queries with constraints (Pt. 1)**
-![image](/sql%20col+constrain.png)
+![image](image/sql%20col+constrain.png)
 1.Find the movie with a row id of 6 
 ~~~sql
   SELECT title,id FROM mytable
@@ -118,7 +118,7 @@ where id<6;
 ~~~
 
 ***Queries with constraints (Pt. 2)***
-![image](/sql%20queries+constrain.png)
+![image](image/sql%20queries+constrain.png)
 
 1.Find all the Toy Story movies
 ~~~sql
@@ -198,7 +198,7 @@ where country="United States" order by population DESC limit 2 offset 2;
 
 ***SQL Lesson 6: Multi-table queries with JOINs***
 
-![image](/JOIN.png)
+![image](image/JOIN.png)
 1.Find the domestic and international sales for each movie 
 ~~~sql
 SELECT title,internation_sales,domestic_sales FROM mytable
@@ -315,38 +315,38 @@ There are 5 levels of Normal Form:
 
 - Rule 1: Do not use row order to convey information
 
-![Untitled](/1NF.1.png)
+![Untitled](image/1NF.1.png)
 
-![Untitled](/1NF.2.png)
+![Untitled](image/1NF.2.png)
 
 - Rule 2: Mixing Datatype is not allowed
 
-![Untitled](/1Nf.3.png)
+![Untitled](image/1Nf.3.png)
 
 - Rule 3: Every table should have a primary key
 
-![Untitled](/1NF.4.png)
+![Untitled](image/1NF.4.png)
 
 - Rule 4: Repeating Groups are not permitted
 
-![The data items amulets rings copper coins are getting  repeated in each row](/1NF.5.png)
+![The data items amulets rings copper coins are getting  repeated in each row](image/1NF.5.png)
 
 The data items amulets rings copper coins are getting  repeated in each row
 
-![Untitled](/1NF.6.png)
+![Untitled](image/1NF.6.png)
 
-![Untitled](/1NF,7.png)
+![Untitled](image/1NF,7.png)
 
 ## Second Normal Form 2NF:
 
 - Rule 1: It must be in First Normal Form
 - Rule 2: Each Non-key attribute must depend on entire primary key
 
-![This table is not  in 2NF as the player_rating column is dependent on the  item_quantity, rather than the composite primary key {player_id, item_type} which violates 2NF](/2NF.1.png)
+![This table is not  in 2NF as the player_rating column is dependent on the  item_quantity, rather than the composite primary key {player_id, item_type} which violates 2NF](image/2NF.1.png)
 
 This table is not  in 2NF as the player_rating column is dependent on the  item_quantity, rather than the composite primary key {player_id, item_type} which violates 2NF
 
-![The table is then splitted into separate tables. Now each non-key attributes on each table  is  dependent  on their corresponding primary key.](/2NF.2.png)
+![The table is then splitted into separate tables. Now each non-key attributes on each table  is  dependent  on their corresponding primary key.](image/2NF.2.png)
 
 The table is then splitted into separate tables. Now each non-key attributes on each table  is  dependent  on their corresponding primary key.
 
@@ -355,12 +355,12 @@ The table is then splitted into separate tables. Now each non-key attributes on 
 - Rule 1: It should be in 2NF and 3NF
 - Rule 2: Every  non-key attribute on the table should depend on the key, the whole key, nothing but the key.
 
-![Untitled](/3NF.1.png)
+![Untitled](image/3NF.1.png)
 
-![In this example the a non-key attribute “player_skill_level” is entirely dependent on another non-key attribute “player_rating” which violates 3NF](/3NF.2.png)
+![In this example the a non-key attribute “player_skill_level” is entirely dependent on another non-key attribute “player_rating” which violates 3NF](image/3NF.2.png)
 
 In this example the a non-key attribute “player_skill_level” is entirely dependent on another non-key attribute “player_rating” which violates 3NF
 
-![Untitled](/3NF.3.png)
+![Untitled](image/3NF.3.png)
 
-![Untitled](/3NF.4.png)
+![Untitled](image/3NF.4.png)
