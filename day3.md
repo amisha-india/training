@@ -70,7 +70,7 @@ Cloud use Linux because of its benifits that are:
 
 2.Neo4j
 
-# SQL(Sequentical query language)
+# SQL(Structured query language)
 ***SQL Lesson 1: SELECT queries 101***
 
 1.Find the title of each film
