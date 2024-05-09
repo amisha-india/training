@@ -2,6 +2,7 @@
 
 --Exam(02-05-2024)
 --creating the database
+~~~sql
 CREATE DATABASE [Car_rental_system]
 USE [Car_rental_system];
 
@@ -249,3 +250,4 @@ FROM Vehicle
 LEFT JOIN Lease ON Vehicle.vehicleID = Lease.vehicleID;
 
 --END
+~~~
