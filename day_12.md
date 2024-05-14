@@ -163,7 +163,7 @@ Organising Project
 
 Firstly, we need a driver for connecting to databases. Why do we need a driver  in the first place?
 
-![Untitled](assets/Day-12/Untitled.png)
+![Untitled](images/day_12.png)
 
 **ODBC** is what we need. ODBC is a standard for drivers for SQLs. In python we have PyODBC
 
