@@ -99,7 +99,7 @@ Think of a function `only_positive()`  which accepts only positive numbers. If a
 ```python
 def only_positive(x):
 	if x < 0:
-			# Handle Exception Here
+			# Handle Exception 
 ```
 
 In this scenario we need to error out and say, No negative number is allowed. Let’s say we want to built this Error class by ourselves
